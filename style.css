@@ -195,3 +195,64 @@ h2 {
 .tabla-habilidades tr:nth-child(even) {
     background-color: #eaf1f3;
 }
+.proyectos {
+    background-color: rgb(209, 219, 219);
+}
+
+.contenido-proyectos {
+    max-width: 1100px;
+}
+
+.texto-proyectos {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.galeria-proyectos {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.tarjeta-proyecto {
+    width: 320px;
+    background-color: #bcdbdf;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-proyecto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tarjeta-proyecto h3 {
+    color: #24406f;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.tarjeta-proyecto p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.tarjeta-proyecto a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0f1c44;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.tarjeta-proyecto a:hover {
+    background-color: #064f58;
+}
