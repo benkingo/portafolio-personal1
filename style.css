@@ -210,9 +210,9 @@ h2 {
 }
 
 .galeria-proyectos {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    flex-wrap: wrap;
 }
 
 .tarjeta-proyecto {
@@ -261,7 +261,8 @@ h2 {
 }
 
 .contenido-contacto {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     gap: 40px;
     max-width: 1100px;
 }
