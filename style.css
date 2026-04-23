@@ -396,3 +396,92 @@ h2 {
     text-align: center;
     font-size: 16px;
 }
+
+@media (max-width: 768px) {
+
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+        text-align:center;
+    }
+
+    .navlinks{
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+
+    .presentacion{
+        flex-direction: column;
+        text-align:center;
+        padding:50px 30px;
+    }
+
+    .foto-presentacion{
+        margin-left:0;
+        margin-top:25px;
+    }
+
+    .contenido-sobre-mi{
+        flex-direction: column;
+    }
+
+    .datos-personales{
+        width:100%;
+        max-width:500px;
+    }
+
+    .galeria-proyectos{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenido-contacto{
+        grid-template-columns:1fr;
+    }
+
+    .contenido-footer{
+        flex-direction:column;
+        gap:18px;
+    }
+}
+
+@media (max-width:480px){
+
+    .texto-presentacion h1{
+        font-size:30px;
+    }
+
+    .descripcion-presentacion{
+        font-size:17px;
+    }
+
+    h2{
+        font-size:26px;
+    }
+
+    .navlinks{
+        flex-direction:column;
+    }
+
+    .galeria-proyectos{
+        grid-template-columns:1fr;
+    }
+
+    .tarjeta-proyecto{
+        width:100%;
+    }
+
+    .tabla-habilidades{
+        font-size:14px;
+    }
+
+    .tabla-habilidades th,
+    .tabla-habilidades td{
+        padding:8px;
+    }
+
+    .formulario-contacto,
+    .info-contacto{
+        width:100%;
+    }
+
+}
