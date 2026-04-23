@@ -22,3 +22,7 @@ Proyecto de portafolio web desarrollado en HTML y CSS.
 Benjamin Salinas Muñoz
 Ingeniería en Informática
 INACAP
+
+## Vista previa
+
+![Captura del portafolio](img/captura-portafolio.png) 
